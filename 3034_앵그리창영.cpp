@@ -8,8 +8,8 @@ int main()
 	for (int i=0; i<n; i++)
 	{
 		cin>>len;
-		rou=pow(w*w+h*h, 1/2);
-		if (len<=w || len<=h || len<=rou) cout<<"DA\n";
+		rou=w*w+h*h;
+		if (len*len<=rou) cout<<"DA\n";
 		else cout<<"NE\n";
 	}
 	return 0;
