@@ -3,7 +3,10 @@ using namespace std;
 int num[500001], most[8001]={0,};
 int main()
 {
-	int n, max=-4000, min=4000, max1=0, cnt=0, ans;
+	ios_base::sync_with_stdio(NULL);
+	cin.tie(NULL);
+	cout.tie(NULL);
+	int n, max=-4001, min=4001, max1=0, cnt=0, ans;
 	double sum=0.0;
 	cin>>n;
 	for (int i=0; i<n; i++)
@@ -14,11 +17,11 @@ int main()
 		if (num[i]>=max) max=num[i];
 		if (num[i]<=min) min=num[i];
 	}
-	for (int i=1; i<8001; i++)
+	for (int i=0; i<8001; i++)
 	{
 		if (most[i]>max1) max1=most[i];
 	}
-	for (int i=1; i<8001; i++)
+	for (int i=0; i<8001; i++)
 	{
 		if (most[i]==max1)
 		{
