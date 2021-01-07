@@ -10,8 +10,8 @@
 ### 💻 vscode 에서 알고리즘 문제 풀기 (c, cpp 한정)
 1. MinGW 설치 (https://sourceforge.net/projects/mingw/) - window 기준
 
-1.1 MinGW 설치 과정에서 gcc 컴파일러 설치
-1.2 환경변수 설정
+1.1 MinGW 설치 과정에서 gcc 컴파일러 설치    
+1.2 환경변수 설정    
 	환경변수 path 편집 / MinGW\bin 경로 추가
 
 2. vscode 내 구성 편집
