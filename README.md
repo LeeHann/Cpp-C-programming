@@ -1,10 +1,10 @@
-# acmicpc_cpp
+# Algorithm
 
-📁 acmicpc  : 백준 알고리즘 문제 풀이    
-📁 codeforces : 코드포스 문제 풀이    
-📁 codeStudy : 기타 코딩 공부    
-📁 otherContest : 코딩테스트 문제 풀이 + 프로그래머스    
-
+📁 Baekjoon  : 백준 알고리즘 문제 풀이    
+📁 Codeforces : 코드포스 문제 풀이     
+📁 otherContest : 프로그래머스 문제 풀이     
+📁 study : 기타 코딩 공부    
+  
 📝 0_skeleton.cpp : c++ 기본 세팅 상태
 
 ### 💻 vscode 에서 알고리즘 문제 풀기 (c, cpp 한정)
