@@ -1,8 +1,8 @@
 # Algorithm
 
 📁 Baekjoon  : 백준 알고리즘 문제 풀이    
-📁 Codeforces : 코드포스 문제 풀이     
-📁 otherContest : 프로그래머스 문제 풀이     
+📁 Programmers : 프로그래머스 문제 풀이 WITH SQL        
+📁 codeforces : 코드포스 문제 풀이          
 📁 study : 기타 코딩 공부    
   
 📝 0_skeleton.cpp : c++ 기본 세팅 상태
