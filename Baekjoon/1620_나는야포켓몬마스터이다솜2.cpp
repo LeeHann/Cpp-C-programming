@@ -12,14 +12,16 @@ bool isAlpha(char c)
 
 int main()
 {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL); cout.tie(NULL);
-	
-	int n, m;
-	map<string, int> mp;
-	string tmp;
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
 
+	int n, m;
 	cin >> n >> m;
+	
+	map<string, int> mp;
+	string tmp;	
+
 	for (int i = 1; i <= n; i++)
 	{
 		cin >> tmp;
@@ -29,9 +31,9 @@ int main()
 	for (int i = 0; i < m; i++)
 	{
 		cin >> tmp;
-		if (isAlpha(tmp[0]))	// -> 숫자 출력
+		if (isAlpha(tmp[0]))
 			cout << mp[tmp] << "\n";
-		else					// -> 이름 출력
+		else
 			cout << str[stoi(tmp)] << "\n";
 	}
 	return 0;
